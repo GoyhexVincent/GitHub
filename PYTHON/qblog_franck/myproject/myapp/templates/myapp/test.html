@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+    <title>add point example</title>
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+    
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="leaflet.css" />
+
+	<style>
+		#map {
+			width: 800px;
+			height: 500px;
+		}
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+	</style>
+</head>
+<body>
+     <div id="form-div" style="height: 600px; width: 600px;">
+        <br>
+        <p><em>*All fields are required</em></p>                
+        <form action="/add_point/" method="post">{% csrf_token %}
+            <div class="fieldWrapper">
+                <p>1) Place the marker where your house is</p>
+                <div id="map" style="height:400px; width:80%; padding-top:100px;"></div>
+                <input id="coordinates" name="coordinates" value="" type="hidden" />
+            </div>
+            <div class="fieldWrapper">
+                <label>2) Name of the owner</label>
+                {{ form.owner }}
+            </div>    
+            <div class="fieldWrapper">
+                <label>3) Price of the house $</label>
+                {{ form.price }}
+            </div>    
+            <div class="fieldWrapper">                
+                <label>4) Area of the house [m2]:</label>
+                {{ form.area }}
+            </div>                
+            <br>
+            <input type="submit" name="submit" class="btn" value="Add house">
+        </form>
+        <br></br>
+    </div>
+	<script src="leaflet.js"></script>
+		var map = L.map('map').setView([37.8, -96], 4);
+
+		L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.jpg', {
+			maxZoom: 18,
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			id: 'examples.map-20v6611k'
+		}).addTo(map);
+function onMapClick(e) {
+          var lat = e.latlng.lat;
+          var lng = e.latlng.lng;
+
+          // Every time when user click on map we want to delete previous marker and create new marker on the new position where the user clicked      
+          if (typeof marker != 'undefined') {
+              map.removeLayer(marker);  // delete previous marker
+              marker = L.marker([lat, lng]).addTo(map);  // add new marker
+          }
+          else {
+              marker = L.marker([lat, lng]).addTo(map);  // add new marker
+          }
+          
+          // we want to pass value of longitued and latitude to input field with id 'coordinates'
+          // note that we set that field as hidden because we don't want user to type the coordinates there. We want him to set marker on map 
+          $('#coordinates').val(lng + ',' + lat)          
+        }
+
+        // call the onMapClick function when user click on map
+        map.on('click', onMapClick);
+	</script>
+</body>
+</html>

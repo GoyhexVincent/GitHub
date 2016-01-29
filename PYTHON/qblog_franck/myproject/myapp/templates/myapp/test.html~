@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>add point example</title>
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+     <!--[if lte IE 8]>
+         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+     <![endif]-->
+	 <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+  </head>
+          
+  <body>
+  <script>  
+      // replace "toner" here with "terrain" or "watercolor"
+var layer = new L.StamenTileLayer("toner");
+var map = new L.Map("element_id", {
+    center: new L.LatLng(37.7, -122.4),
+    zoom: 12
+});
+map.addLayer(layer);
+      </script>
+
+  </body>
+</html>

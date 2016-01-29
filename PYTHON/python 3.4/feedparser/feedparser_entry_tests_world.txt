@@ -1,0 +1,11 @@
+http://rss.nytimes.com/services/xml/rss/nyt/World.xml
+http://rss.lemonde.fr/c/205/f/3052/index.rss
+http://www.theguardian.com/world/rss
+http://estaticos.elmundo.es/elmundo/rss/internacional.xml
+http://liberation.fr.feedsportal.com/c/32268/fe.ed/rss.liberation.fr/rss/10/
+http://feeds.boston.com/boston/news/world
+http://www.thehindu.com/news/international/world/?service=rss
+http://rss.nouvelobs.com/c/32262/fe.ed/tempsreel.nouvelobs.com/monde/rss.xml
+http://rss.nzherald.co.nz/rss/xml/nzhrsscid_000000002.xml
+http://www.scmp.com/rss/5/feed
+http://www.jpost.com/Rss/RssFeedsPolitiqueetsocial.aspx

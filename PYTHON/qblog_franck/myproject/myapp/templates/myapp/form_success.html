@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>add point example</title>
+
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+     <!--[if lte IE 8]>
+         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+     <![endif]-->
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+	 <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+  </head>
+          
+  <body>
+      <div id="form-div" style="height: 600px; width: 600px;">
+        <br>
+        <p><em>*All fields are required</em></p>                
+        <form action="/add_point/" method="post">{% csrf_token %}
+            <div class="fieldWrapper">
+                <p>1) Place the marker where your house is</p>
+                <div id="map" style="height:400px; width:80%; padding-top:100px;"></div>
+                <input id="coordinates" name="coordinates" value="" type="hidden" />
+            </div>
+            <div class="fieldWrapper">
+                <label>2) Name of the owner</label>
+                {{ form.owner }}
+            </div>    
+            <div class="fieldWrapper">
+                <label>3) Price of the house $</label>
+                {{ form.price }}
+            </div>    
+            <div class="fieldWrapper">                
+                <label>4) Area of the house [m2]:</label>
+                {{ form.area }}
+            </div>                
+            <br>
+            <input type="submit" name="submit" class="btn" value="Add house">
+        </form>
+        <br></br>
+    </div>
+
+    <script>
+ // replace "toner" here with "terrain" or "watercolor"
+var layer = new L.StamenTileLayer("toner");
+var map = new L.Map("element_id", {
+    center: new L.LatLng(37.7, -122.4),
+    zoom: 12
+}).addTo(map);
+map.addLayer(layer);
+
+        function onMapClick(e) {
+          var lat = e.latlng.lat;
+          var lng = e.latlng.lng;
+
+          // Every time when user click on map we want to delete previous marker and create new marker on the new position where the user clicked      
+          if (typeof marker != 'undefined') {
+              map.removeLayer(marker);  // delete previous marker
+              marker = L.marker([lat, lng]).addTo(map);  // add new marker
+          }
+          else {
+              marker = L.marker([lat, lng]).addTo(map);  // add new marker
+          }
+          
+          // we want to pass value of longitued and latitude to input field with id 'coordinates'
+          // note that we set that field as hidden because we don't want user to type the coordinates there. We want him to set marker on map 
+          $('#coordinates').val(lng + ',' + lat)          
+        }
+
+        // call the onMapClick function when user click on map
+        map.on('click', onMapClick);
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,10 @@
+CREATE TABLE public.movies
+(
+
+    NOM character varying(200),
+    ANNEE character varying(80),
+    GENRE character varying(150)
+
+);
+
+COPY public.movies FROM 'G:\PYTHONS tutorials\python 2.7/output.csv' WITH DELIMITER ';' CSV HEADER;

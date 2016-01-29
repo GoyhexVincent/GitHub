@@ -1,0 +1,973 @@
+{
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24, 54.9]
+		},
+		"properties": {
+			"LONC": "24",
+			"LATC": "55",
+			"CITY": "Kowno",
+			"LONT": "37.6",
+			"TEMP": "0",
+			"DAYS": "6",
+			"DATE": "  Oct 18",
+			"SURVIV": "340000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.5, 55]
+		},
+		"properties": {
+			"LONC": "25.3",
+			"LATC": "54.7",
+			"CITY": "Wilna",
+			"LONT": "36",
+			"TEMP": "0",
+			"DAYS": "6",
+			"DATE": "  Oct 24",
+			"SURVIV": "340000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [25.5, 54.5]
+		},
+		"properties": {
+			"LONC": "26.4",
+			"LATC": "54.4",
+			"CITY": "Smorgoni",
+			"LONT": "33.2",
+			"TEMP": "-9",
+			"DAYS": "16",
+			"DATE": "  Nov 9",
+			"SURVIV": "340000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [26, 54.7]
+		},
+		"properties": {
+			"LONC": "26.8",
+			"LATC": "54.3",
+			"CITY": "Molodexno",
+			"LONT": "32",
+			"TEMP": "-21",
+			"DAYS": "5",
+			"DATE": "  Nov 14",
+			"SURVIV": "320000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [27, 54.8]
+		},
+		"properties": {
+			"LONC": "27.7",
+			"LATC": "55.2",
+			"CITY": "Gloubokoe",
+			"LONT": "29.2",
+			"TEMP": "-11",
+			"DAYS": "10",
+			"DATE": ".",
+			"SURVIV": "300000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28, 54.9]
+		},
+		"properties": {
+			"LONC": "27.6",
+			"LATC": "53.9",
+			"CITY": "Minsk",
+			"LONT": "28.5",
+			"TEMP": "-20",
+			"DAYS": "4",
+			"DATE": "  Nov 28",
+			"SURVIV": "280000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.5, 55]
+		},
+		"properties": {
+			"LONC": "28.5",
+			"LATC": "54.3",
+			"CITY": "Studienska",
+			"LONT": "27.2",
+			"TEMP": "-24",
+			"DAYS": "3",
+			"DATE": "  Dec 1",
+			"SURVIV": "240000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [29, 55.1]
+		},
+		"properties": {
+			"LONC": "28.7",
+			"LATC": "55.5",
+			"CITY": "Polotzk",
+			"LONT": "26.7",
+			"TEMP": "-30",
+			"DAYS": "5",
+			"DATE": "  Dec 6",
+			"SURVIV": "210000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [30, 55.2]
+		},
+		"properties": {
+			"LONC": "29.2",
+			"LATC": "54.4",
+			"CITY": "Bobr",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "1",
+			"DATE": "  Dec 7",
+			"SURVIV": "180000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [30.3, 55.3]
+		},
+		"properties": {
+			"LONC": "30.2",
+			"LATC": "55.3",
+			"CITY": "Witebsk",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "175000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [32, 54.8]
+		},
+		"properties": {
+			"LONC": "30.4",
+			"LATC": "54.5",
+			"CITY": "Orscha",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "145000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [33.2, 54.9]
+		},
+		"properties": {
+			"LONC": "30.4",
+			"LATC": "53.9",
+			"CITY": "Mohilow",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "140000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [34.4, 55.5]
+		},
+		"properties": {
+			"LONC": "32",
+			"LATC": "54.8",
+			"CITY": "Smolensk",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "127100",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [35.5, 55.4]
+		},
+		"properties": {
+			"LONC": "33.2",
+			"LATC": "54.9",
+			"CITY": "Dorogobouge",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "100000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [36, 55.5]
+		},
+		"properties": {
+			"LONC": "34.3",
+			"LATC": "55.2",
+			"CITY": "Wixma",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "100000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [37.6, 55.8]
+		},
+		"properties": {
+			"LONC": "34.4",
+			"LATC": "55.5",
+			"CITY": "Chjat",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "100000",
+			"DIREC": "Advance",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [37.7, 55.7]
+		},
+		"properties": {
+			"LONC": "36",
+			"LATC": "55.5",
+			"CITY": "Mojaisk",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "100000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [37.5, 55.7]
+		},
+		"properties": {
+			"LONC": "37.6",
+			"LATC": "55.8",
+			"CITY": "Moscou",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "98000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [37, 55]
+		},
+		"properties": {
+			"LONC": "36.6",
+			"LATC": "55.3",
+			"CITY": "Tarantino",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "97000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [36.8, 55]
+		},
+		"properties": {
+			"LONC": "36.5",
+			"LATC": "55",
+			"CITY": "Malo-jarosewli",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "96000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [35.4, 55.3]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "87000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [34.3, 55.2]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "55000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [33.3, 54.8]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "37000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [32, 54.6]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "24000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [30.4, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "20000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [29.2, 54.3]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "20000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.5, 54.2]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "20000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.3, 54.3]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "20000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [27.5, 54.5]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "20000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [26.8, 54.3]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "12000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [26.4, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "14000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [25, 54.5]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "8000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.4, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "4000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.2, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "4000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.1, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "4000",
+			"DIREC": "Retreat",
+			"DIVISION": "I",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24, 55.1]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "60000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.5, 55.2]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "60000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [25.5, 54.7]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "60000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [26.6, 55.7]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "40000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [27.4, 55.6]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "33000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.7, 55.5]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "33000",
+			"DIREC": "Advance",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.7, 55.5]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "33000",
+			"DIREC": "Retreat",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [29.2, 54.25]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "30000",
+			"DIREC": "Retreat",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.5, 54.15]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "30000",
+			"DIREC": "Retreat",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [28.3, 54.25]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "28000",
+			"DIREC": "Retreat",
+			"DIVISION": "II",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24, 55.2]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "22000",
+			"DIREC": "Advance",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.5, 55.3]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "22000",
+			"DIREC": "Advance",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.6, 55.8]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "6000",
+			"DIREC": "Advance",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.6, 55.8]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "6000",
+			"DIREC": "Retreat",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.2, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "6000",
+			"DIREC": "Retreat",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}, {
+		"type": "Feature",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.1, 54.4]
+		},
+		"properties": {
+			"LONC": "",
+			"LATC": "",
+			"CITY": "",
+			"LONT": "25.3",
+			"TEMP": "-26",
+			"DAYS": "",
+			"DATE": "  Dec 7",
+			"SURVIV": "6000",
+			"DIREC": "Retreat",
+			"DIVISION": "III",
+			"var1": "1"
+		}
+	}]
+}
